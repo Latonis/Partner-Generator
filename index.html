@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Partner Generator</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
     <script src="script.js"></script>
 
 </head>
@@ -12,18 +14,18 @@
 
 
     <div class="container">
-        <form class="container-item">
+        <form id="item-weeks">
             Weeks: <br>
-            <input type=""text" name="Weeks"><br>
+            <input type="text" name="Weeks"><br>
         </form>
 
     <form class="container-item">
         First Name: <br>
-        <input type=""text" name="firstname"><br>
+        <input type="text" name="firstname"><br>
     </form>
     <form class="container-item">
         Last Name: <br>
-        <input type=""text" name="lastname"><br>
+        <input type="text" name="lastname"><br>
     </form>
 
         <button id="add-button">Add Name</button>
