@@ -2,34 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Partner Generator</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A partner generator that uses LFU as a similar concept">
+    <meta name="keywords" content="partner, generator, weeks, prayer">
+    <meta name="author" content="Yoon Cho">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
     <script src="script.js"></script>
-
+    <title>Partner Generator | Welcome</title>
 </head>
+
+
 <body>
-    <h1 id="title">Partner Generator</h1>
+<h1 id="title">Partner Generator</h1>
 
-
+<section id="Main">
     <div class="container">
         <form id="item-weeks">
             Weeks: <br>
-            <input type="text" name="Weeks"><br>
+            <input type="text" name="Weeks" placeholder="Enter number of weeks"><br>
         </form>
 
-    <form class="container-item">
-        First Name: <br>
-        <input type="text" name="firstname"><br>
-    </form>
-    <form class="container-item">
-        Last Name: <br>
-        <input type="text" name="lastname"><br>
-    </form>
-
+        <div id="textinputs">
+        <form class="text-field">
+            First Name: <br>
+            <input type="text" name="firstname" placeholder="John"><br>
+        </form>
+        <form class="text-field">
+            Last Name: <br>
+            <input type="text" name="lastname" placeholder="Smith"><br>
+        </form>
+        </div>
         <button id="add-button">Add Name</button>
     </div>
-
+</section>
 </body>
 </html>
