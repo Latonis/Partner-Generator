@@ -11,7 +11,6 @@ h1 {
     width: 80%;
     margin:5em 0 0 7em;
     overflow:hidden;
-    position:absolute;
 
 }
 
@@ -22,13 +21,18 @@ body {
 
 /* JQuery Additions */
 .newInputs {
-    float:right;
-    width:63%;
+    margin-top:0.5em;
+    width: 60%;
+    text-align:center;
+    margin-left: 0.8em;
+    margin-right:0.8em;
 
 }
 
 .newInputs .text-field {
-    margin-left:1.1em;
+    margin:0.5em 9em 0.5em 0;
+    display: inline-block;
+
 
 }
 /*-----------------------------------*/
