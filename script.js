@@ -7,7 +7,7 @@ $(document).ready(function(){
         inputs.removeAttr("textinputs");
         inputs.addClass("newInputs");
 
-    $('.container').after(inputs);
+    $('.container').append(inputs);
 
 })
 
